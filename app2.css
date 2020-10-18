@@ -1,0 +1,22 @@
+.tab-nav {
+  display: flex;
+}
+.tab-nav > li {
+  margin: 20px;
+  border: 1px solid red;
+  width: 50%;
+}
+.tab-nav > li > span {
+  margin-left: 43%;
+}
+.selected {
+  background-color: gray;
+  color: white;
+}
+.tab-content > li {
+  display: none;
+  margin: 20px;
+}
+.tab-content > li.active {
+  display: block;
+}

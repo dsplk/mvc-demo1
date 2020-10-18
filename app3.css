@@ -1,0 +1,12 @@
+.square {
+  width: 80px;
+  height: 80px;
+  border: 2px solid red;
+  margin: 80px;
+  transition: transform 1s;
+}
+
+.animation {
+  transform: translateX(80px);
+  background-color: blue;
+}
